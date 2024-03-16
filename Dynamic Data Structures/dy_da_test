@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int *dynamicArray = NULL;
+int size, i;
+
+dynamicArray = (int*)malloc(size *sizeof(int));
+
+
+
+
+
+
+
+
+
+
+
+}

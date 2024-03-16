@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/kligh/OneDrive/Desktop/DSA/C/Linked List",
-      "program": "c:/Users/kligh/OneDrive/Desktop/DSA/C/Linked List/build/Debug/outDebug",
+      "cwd": "c:/Users/kligh/OneDrive/Desktop/DSA/C/Dynamic Data Structures",
+      "program": "c:/Users/kligh/OneDrive/Desktop/DSA/C/Dynamic Data Structures/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
