@@ -3,19 +3,34 @@
 
 int main()
 {
-int *dynamicArray = NULL;
-int size, i;
+    int *dynamicArray = NULL;
+    int size, i;
 
-dynamicArray = (int*)malloc(size *sizeof(int));
+    printf("Enter size of the array: ");
+    scanf("%d", &size);
 
+    dynamicArray = (int*)malloc(size *sizeof(int));
 
+    if(dynamicArray == NULL)
+    {
+        printf("Memory allocation failed\n");
+        return -1;
+    }
 
+    for(int i = 0; i < size; i++)
+    {
+        dynamicArray[i] = i * 10;
+    }
 
+    printf("Dynamic Array: ");
+    for(int i = 0; i < size; i++)
+    {
+        printf("%d", dynamicArray[i]);
+    }
+    printf("\n");
 
+    free(dynamicArray);
 
-
-
-
-
+    return 0;
 
 }
